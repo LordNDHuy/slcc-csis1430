@@ -1,0 +1,66 @@
+/* CSS Document */
+body {
+font-size: 10pt;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: #BDBDBD;
+line-height: 14pt;
+padding-left: 5pt;
+padding-right: 5pt;
+padding-top: 5pt;
+background-color: #181617;
+}
+
+h1 {
+font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight: bold;
+line-height: 20pt;
+}
+h3 {
+font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight: bold;
+line-height: 20pt;
+}
+
+header {
+font-size: 12pt;
+font-weight: bold;
+color: #003827;
+}
+
+.subheader{
+font:12pt Arial;
+color: #9C98A0;
+}
+.primary-nav {
+font-size: 14px;
+font-weight: 400;
+letter-spacing: .5px;
+text-transform: uppercase;
+}
+
+img {
+width: 25%;
+height: 25%;
+border:solid;
+border-width:5px;
+padding:10px;
+border-radius:15px;
+float: down;
+border-color:#FFC75F;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: #FF9671
+  }, a:visited{
+  color: #FFC75F;
+}
+
+a:hover{
+  color: #F9F871;
+  }, a:active{
+    color: #845EC2;
+}
