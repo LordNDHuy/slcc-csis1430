@@ -13,7 +13,9 @@ background-color: #181617;
 h1 {
 font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
 font-weight: bold;
-line-height: 20pt;
+line-height: 24pt;
+color: #eb9530;
+
 }
 h3 {
 font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -22,9 +24,15 @@ line-height: 20pt;
 }
 
 header {
-font-size: 12pt;
-font-weight: bold;
-color: #003827;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #003827;
+}
+p{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .subheader{
@@ -34,33 +42,52 @@ color: #9C98A0;
 .primary-nav {
 font-size: 14px;
 font-weight: 400;
-letter-spacing: .5px;
+word-spacing: 10px;
 text-transform: uppercase;
 }
+.center{
+  text-align: center;
+  list-style-position: inside;
+  display:block;
 
+}
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 width: 25%;
 height: 25%;
 border:solid;
 border-width:5px;
 padding:10px;
 border-radius:15px;
-float: down;
 border-color:#FFC75F;
 }
 
+ul{
+  text-align: left;
+  display: inline-block;
+}
+ol{
+  text-align: left;
+  display: inline-block;
+}
+nav{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid ;
+}
 a{
   text-decoration: none;
 }
 
-a:link{
-  color: #FF9671
-  }, a:visited{
-  color: #FFC75F;
+a:link, a:visited{
+  color: #f5a24d;
 }
 
-a:hover{
-  color: #F9F871;
-  }, a:active{
-    color: #845EC2;
-}
+a:hover{color: #F9F871;}, a:active{color: #d56b09;}
