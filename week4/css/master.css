@@ -46,16 +46,23 @@ img {
   /*display: block;
   margin-left: auto;
   margin-right: auto;*/
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
   border:solid;
-  border-width:5px;
+  border-width:2px;
   padding:10px;
   border-radius:15px;
   border-color:#FFC75F;
   float:right;
 }
-
+.img-alt{
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+}
 ul{
   text-align: left;
   display: inline-block;
@@ -117,7 +124,6 @@ a:hover{
 
   h1, h3, h4, h5, p {
   margin-bottom: 22px;
-
   }
 
   /*
@@ -143,6 +149,9 @@ a:hover{
   ========================================
   */
 
+  .center{
+    text-align: center;
+  }
   .home {
   padding: 22px 80px 66px 80px;
   }
