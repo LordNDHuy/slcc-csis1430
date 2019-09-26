@@ -7,9 +7,9 @@ padding-left: 5pt;
 padding-right: 5pt;
 padding-top: 5pt;
 background:
-       url("file:///home/huynguyen/slcc/csis-1430/week5/src/archlogo.png") 0 0 no-repeat,
+       url("https://raw.githubusercontent.com/LordNDHuy/slcc-csis1430/master/week5/src/archlogo.png") 0 0 no-repeat,
        url("middle-ground.png") 0 0 no-repeat,
-       url("file:///home/huynguyen/slcc/csis-1430/week5/src/background.jpg") 0 0 no-repeat;
+       url("https://raw.githubusercontent.com/LordNDHuy/slcc-csis1430/master/week5/src/background.jpg") 0 0 no-repeat;
 background-repeat: no-repeat, no-repeat, no-repeat;
 background-position:bottom right, bottom right, center;
 background-size: 25%,25%,100%;
