@@ -42,6 +42,9 @@ a:hover{
   font-size: 18px;
   font-weight: 400;
 }
+.logo:hover{
+  color: #2D2E2E;
+}
 .logo-text{
   float: none;
 

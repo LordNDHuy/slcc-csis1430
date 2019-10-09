@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta charset="utf-8">
+    <title>Picture Page</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+    .coolVids .cooltunes .placeImages{
+    height: auto;
+    }
+
+    .placeImages li{
+      display: inline-block;
+      margin: 0 10px;
+      vertical-align: top;
+    }
+
+    .placeImages img{
+      display: inline;
+      height: 100px;
+      width: auto;
+      padding: 5px;
+      border: 12px;
+      border-width: 5px;
+      float: none;
+    }
+
+    .placeImages img:hover{
+      display: inline;
+      height:220px;
+      width: auto;
+      border:none;
+      border-width:2px;
+      padding:10px;
+      border-radius:17px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <section class="row row-alt">
+      <header class="container center">
+        <section>
+          <h1><a href="../index.html">Huy D. Nguyen, CSIS-1430-402-F19</a></h1>
+        </section>
+
+        <nav class = "primary-nav subheader">
+          <a class="btn btn-alt" href="index.html">Home</a>
+          <a class="btn btn-alt" href="family.html">Family</a>
+          <a class="btn btn-alt" href="hobbies.html">Hobbies</a>
+          <a class="btn btn-alt" href="picture.html">Picture</a>
+          <a class="btn btn-alt" href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <section class="section container">
+        <header >
+            <h3>Dishes that I can cook</h3>
+        </header>
+
+        <div class="placeImages">
+          <ul>
+            <li>
+              <figure>
+                <img src="src/cuisine/hamFriedRice.jpeg" alt="hamFriedRice">
+                <figcaption>Ham Fried Rice</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="src/cuisine/lomien.jpeg" alt="Lomien">
+                <figcaption>Lomien</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="src/cuisine/pho.jpeg" alt="Pho">
+                <figcaption>Pho</figcaption>
+              </figure>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="coolVids">
+          <video width="320" height="240" controls>
+          <source src="src/video/avemaria_guitar.mp4" type="video/mp4">Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="cooltunes">
+          <audio controls>
+          <source src="src/music/avemaria.m4a" type="audio/mpeg">
+          Your browser does not support the <code>audio</code> tag.
+          </audio>
+        </div>
+      </section>
+
+      <footer class="container center">
+        <nav class = "primary-nav subheader">
+          <a class="btn btn-alt" href="index.html">Home</a>
+          <a class="btn btn-alt" href="family.html">Family</a>
+          <a class="btn btn-alt" href="hobbies.html">Hobbies</a>
+          <a class="btn btn-alt" href="picture.html">Picture</a>
+          <a class="btn btn-alt" href="contact.html">Contact</a>
+        </nav>
+        <p>&copy;Page made by Huy D. Nguyen</p>
+
+      </footer>
+    </section>
+  </body>
+
+</html>
