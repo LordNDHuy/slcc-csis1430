@@ -242,13 +242,16 @@ Helvetica, Arial, sans-serif;
    border: 1px solid #c6c9cc;
    border-radius: 5px;
    color: #888;
-   display: block;
+   display: inline-block;
    margin: 5px 0 12px 0;
    padding: 5px 8px;
  }
 .form-group input,
 .form-group textarea {
   width: 100%;
+}
+.rad{
+  width: 20%;
 }
 .form-group select {
   height: 34px;
@@ -257,7 +260,6 @@ Helvetica, Arial, sans-serif;
 .form-group textarea {
   height: 78px;
 }
-
 .btn-default {
  border: 0;
  background: #648880;
