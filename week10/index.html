@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>javascript test</title>
+    <script type="text/javascript" src="js/addList.js"></script>
+    <script type="text/javascript" src="js/myImage.js"></script>
+  </head>
+  <body>
+    <div style="display: inline-block">
+        <img src="" id="rotatingImages" height="600" width="900">
+    </div>
+
+    <div style='display: inline-block; vertical-align:top; margin-left: 50px;'>
+        <h3>Dishes that I will cook</h3>
+        <input type="text" id="newItem"  placeholder="input name of the Dishes">
+        <button id="addEllement" onclick="addList()">Add</button>
+        <ol id="myList">
+        </ol>
+    </div>
+    <script>
+        
+        moonArray = ["images/moonImages/Moon10.jpg", "images/moonImages/Moon11.jpg", "images/moonImages/Moon12.jpg", "images/moonImages/Moon13.jpg", "images/moonImages/Moon14.jpg", "images/moonImages/Moon15.jpg", "images/moonImages/Moon16.jpg", "images/moonImages/Moon17.jpg", "images/moonImages/Moon18.jpg", "images/moonImages/Moon19.jpg", "images/moonImages/Moon20.jpg", "images/moonImages/Moon21.jpg", "images/moonImages/Moon22.jpg", "images/moonImages/Moon23.jpg", "images/moonImages/Moon24.jpg", "images/moonImages/Moon25.jpg", "images/moonImages/Moon26.jpg", "images/moonImages/Moon27.jpg", "images/moonImages/Moon28.jpg", "images/moonImages/Moon29.jpg", "images/moonImages/Moon30.jpg", "images/moonImages/Moon31.jpg", "images/moonImages/Moon32.jpg", "images/moonImages/Moon33.jpg", "images/moonImages/Moon34.jpg"];
+        var myVar = setInterval(myImage, 1000);
+        var phase = 0;
+    </script>
+  </body>
+</html>
