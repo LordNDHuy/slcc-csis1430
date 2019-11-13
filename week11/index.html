@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>week 11 </title>
+    <script type="text/javascript">
+          function hello(){
+            alert("Hello World")
+          }
+          function mouseOver(){
+            //document.querySelector("#testMouse").innerHTML = "<h2>mouseOver</h2>";
+            document.getElementById("testMouse").innerHTML="mouseOver";
+            console.log("mouseOver()")
+          }
+
+          function mouseOut(){
+            //document.querySelector("#testMouse").innerHTML = "<h2>mouseOut</h2>";
+            document.getElementById("testMouse").innerHTML="mouseOut";
+
+            console.log("mouseOut()");
+          }
+
+          var questions = [ {"question":"What is your favorite drink", "ans1":"Coke", "ans2":"Pepsi", "val1": 1, "val2":0 }, {"question":"What is your favorite drink", "ans1":"Coke", "ans2":"Pepsi", "val1": 1, "val2":0 }, {"question":"What is your favorite drink", "ans1":"Coke", "ans2":"Pepsi", "val1": 1, "val2":0 }, {"question":"What is your favorite drink", "ans1":"Coke", "ans2":"Pepsi", "val1": 1, "val2":0 } ]
+          questionNum = 0;
+          total = 0;
+          function nextQuestion(ans){
+              total += ans;
+              console.log(total);
+              questionSpot = document.querySelector("#questions");
+              questionString = "<h6> Question" + (questionNum + 2) + ":</h6>"
+                              +"<p>"+questions[questionNum].question +"</p>"
+                              +"<input type=\"radio\" onchange=\"nextQuestion(this.value)\" value="+questions[questionNum].val2+">"+questions[questionNum].ans1+"<br>"
+                              +"<input type=\"radio\" onchange=\"nextQuestion(this.value)\" value="+questions[questionNum].val1+">"+questions[questionNum].ans2;
+              questionSpot.innerHTML = questionString;
+              questionNum++;
+
+
+          }
+
+    </script>
+  </head>
+  <body>
+      <a href="jsgallery.html">aaaaaa</a>
+      <input type="button" onclick="hello()" value="Hello">
+      <p>Bring your mouse inside the division to see the result:</p>
+
+      <div id="testMouse" onmouseout="mouseOut()" onmouseover="mouseOver()">
+        here
+      </div>
+      <div >
+
+      </div>
+
+      <div id ="questions">
+           <h6>Question 1:</h6>
+           <p>What is your favorite color?</p>
+           <input type="radio" onchange="nextQuestion(this.value)" value=0>Red<br>
+           <input type="radio" onchange="nextQuestion(this.value)" value=1>Blue
+       </div>
+  </body>
+</html>

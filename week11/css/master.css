@@ -1,0 +1,30 @@
+body{
+  margin: 0 auto;
+  align-content: center;
+  background: #555050;
+}
+.thumbnails img{
+  height: 80px;
+  padding: 1px;
+  margin:0 10px 10px 0;
+  border: 4px solid #555;
+}
+.thumbnails img:hover{
+  cursor: pointer;
+  border: 4px solid #000;
+}
+
+.preview img{
+  height:  500px;
+  padding: 1px;
+  border: 4px solid #000;
+}
+
+header{
+  text-align: center;
+  background-color: rgb(33, 40, 46);
+  border: thin;
+  border-radius:15px;
+  padding: 5px;
+  margin:10px;
+}

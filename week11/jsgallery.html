@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>js Gallery</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script type="text/javascript" src="js/action.js">
+
+    </script>
+  </head>
+  <body align="center">
+    <header>
+      <h3>this is a short catalogue of Vietnamese cuisine</h3>
+    </header>
+    <select onchange="changeGallery(this.value)">
+      <option value="appetizer">Appetizers</option>
+      <option value="maincourse">Main Courses</option>
+      <option value="dessert">Desserts</option>
+      <option value="drinks">Drinks</option>
+    </select>
+    <div class="thumbnails" id="thumbs">
+      <img onmouseover="showPreview(this.src)" src="images/appetizer/img1.jpg">
+      <img onmouseover="showPreview(this.src)" src="images/appetizer/img2.jpg">
+      <img onmouseover="showPreview(this.src)" src="images/appetizer/img3.jpg">
+      <img onmouseover="showPreview(this.src)" src="images/appetizer/img4.jpg">
+    </div>
+    <div class="preview">
+      <img id="preview" src="images/appetizer/img1.jpg">
+    </div>
+  </body>
+</html>
